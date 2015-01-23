@@ -36,7 +36,7 @@ public class MainActivity extends ActionBarActivity {
 			gl.addView(new TextView(this));
 			gl.addView(new TextView(this));
 			for(int i = 0; i < 15; i++) {
-				final Button b = new Button(this);
+				final KKontingent b = new KKontingent(this);
 				b.setText("Neues \nKontingent");
 				b.setId(i);
 				gl.addView(b);
@@ -46,12 +46,19 @@ public class MainActivity extends ActionBarActivity {
 				b.setOnClickListener(new View.OnClickListener() {
 			        public void onClick(View view) {
 			        	Intent intent = new Intent(man, ArmyActivity.class);
-			    		intent.putExtra("volk", b.getText());
-			    		intent.putExtra("id", b.getId());
+			    		intent.putExtra("id", String.valueOf(b.getId()));
 			    		startActivity(intent);
 			        }
 			    });
+				KStructures.kontingente.add(b);
 			}
 			this.setContentView(sv);
 		}
+	
+	@Override
+	public void onActivityReenter(int resultCode, Intent data) {
+		// TODO Auto-generated method stub
+		super.onActivityReenter(resultCode, data);
+		
+	}
 }
