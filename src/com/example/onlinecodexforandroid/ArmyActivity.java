@@ -23,45 +23,49 @@ public class ArmyActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 			
 		Intent intent = getIntent();
-		String volk = intent.getStringExtra("volk");
-		String id = intent.getStringExtra("id");
+		int id = Integer.parseInt(intent.getStringExtra("id"));
 		
 		ScrollView sv = new ScrollView(this);
 		GridLayout gl = new GridLayout(this);
 		gl.setColumnCount(2);
 		sv.addView(gl);
 		
+		final KKontingent kontingent = KStructures.kontingente.get(id);
+		String volk = kontingent.getVolk();
+		
 		TextView tv = new TextView(this);
 		tv.setText("Online Codex for Android V"+version);
 		gl.addView(tv);
-		TextView tv2 = new TextView(this);
-		tv2.setText(volk);
-		gl.addView(tv2);
-//		TextView tv3 = new TextView(this);
-//		tv3.setText(id);
-//		gl.addView(tv3);
+		TextView tv3 = new TextView(this);
+		tv3.setText(volk);
+		gl.addView(tv3);
 		
 
-		List<String> l;
-		try {
-			l = KParserArmies.parse(getApplicationContext());
-			for(int i = 0; i < l.size(); i++) {
-				Button b = new Button(this);
-				String text = l.get(i);
-				text=text.replace("[newline]", "\n");
-				b.setText(text);
-				b.setId(i);
-			    final int id_ = b.getId();
-				gl.addView(b);
+		if(volk.equals("Neues \nKontingent")){
+			List<String> l;
+			try {
+				l = KParserArmies.parse(getApplicationContext());
+				for(int i = 0; i < l.size(); i++) {
+					Button b = new Button(this);
+					String text1 = l.get(i);
+					text1=text1.replace("[newline]", "\n");
+					b.setText(text1);
+					final String text2 = text1;
+				    b.setOnClickListener(new View.OnClickListener() {
+				        public void onClick(View view) {
+				        	kontingent.setVolk(text2);
+				        }
+				    });
+					gl.addView(b);
+				}
+			} catch (XmlPullParserException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
-		} catch (XmlPullParserException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
 		}
-		
 		this.setContentView(sv);
 		}
 }
