@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<detachments>
+	<detachment>
+		<name>Kombiniertes Kontingent</name>
+		<army>all</army>
+		<hq>
+		    <min>1</min>
+		    <max>2</max>
+		</hq>    
+		<el>
+		    <min>0</min>
+		    <max>3</max>
+		</el>
+		<trp>
+		    <min>2</min>
+		    <max>6</max>
+		</trp>
+		<fa>
+		    <min>0</min>
+		    <max>3</max>
+		</fa>
+		<hs>
+		    <min>0</min>
+		    <max>3</max>
+		</hs>
+		<fort>
+		    <min>0</min>
+		    <max>1</max>
+		</fort>
+		<low>
+		    <min>0</min>
+		    <max>1</max>
+		</low>
+	</detachment>
+	<detachment>
+		<name>Alliiertes Kontingent</name>
+		<army>all</army>
+		<hq>
+		    <min>1</min>
+		    <max>1</max>
+		</hq>    
+		<el>
+		    <min>0</min>
+		    <max>1</max>
+		</el>
+		<trp>
+		    <min>1</min>
+		    <max>2</max>
+		</trp>
+		<fa>
+		    <min>0</min>
+		    <max>1</max>
+		</fa>
+		<hs>
+		    <min>0</min>
+		    <max>1</max>
+		</hs>
+		<fort>
+		    <min>0</min>
+		    <max>0</max>
+		</fort>
+		<low>
+		    <min>0</min>
+		    <max>0</max>
+		</low>
+	</detachment>
+</detachments>
