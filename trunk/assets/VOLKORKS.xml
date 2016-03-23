@@ -39,30 +39,86 @@
 		        <name>[Sanctus Reach] Grukk Face-Rippa</name>
 		        <file>ORGrukk</file>
 		    </unit>
+		    <unit>
+		        <name>[Dread Mob Update] Zhadsnark Da Rippa</name>
+		        <file>ORZhadsnark</file>
+		    </unit>
+		    <unit>
+		        <name>[Dread Mob Update] Mek Boss Buzzgob</name>
+		        <file>ORMek Boss Buzzgob</file>
+		    </unit>
+		    <unit>
+		        <name>[IA8] Skalk Bluetoof</name>
+		        <file>ORSkalk</file>
+		    </unit>
+		    <unit>
+		        <name>[IA8] Warboss Grahkrag</name>
+		        <file>ORGrahkrag</file>
+		    </unit>
 		</hq>    
 		<el>
-		    <min>0</min>
-		    <max>3</max>
+		    <unit>
+		        <name>Burnaboyz</name>
+		        <file>ORBurnaboyz</file>
+		    </unit>
+		    <unit>
+		        <name>Tankbustas</name>
+		        <file>ORTankbustas</file>
+		    </unit>
+		    <unit>
+		        <name>Nobz</name>
+		        <file>ORNobz</file>
+		    </unit>
+		    <unit>
+		        <name>Meganobz</name>
+		        <file>ORMeganobz</file>
+		    </unit>
+		    <unit>
+		        <name>Kommandos</name>
+		        <file>ORKommandos</file>
+		    </unit>
+		    <unit>
+		        <name>Boss Snikrot</name>
+		        <file>ORSnikrot</file>
+		    </unit>
+		    <unit>
+		        <name>[Sanctus Reach] Skrak's Skull-Nobz</name>
+		        <file>ORSkraksSkullNobz</file>
+		    </unit>
+		    <unit>
+		        <name>[Dread Mob Update] Mekboy Junka</name>
+		        <file>ORMekboyJunka</file>
+		    </unit>
 		</el>
 		<trp>
-		    <min>2</min>
-		    <max>6</max>
+		    <unit>
+		        <name></name>
+		        <file>OR</file>
+		    </unit>
 		</trp>
 		<fa>
-		    <min>0</min>
-		    <max>3</max>
+		    <unit>
+		        <name></name>
+		        <file>OR</file>
+		    </unit>
 		</fa>
 		<hs>
-		    <min>0</min>
-		    <max>3</max>
+		    <unit>
+		        <name></name>
+		        <file>OR</file>
+		    </unit>
 		</hs>
 		<fort>
-		    <min>0</min>
-		    <max>1</max>
+		    <unit>
+		        <name></name>
+		        <file>OR</file>
+		    </unit>
 		</fort>
 		<low>
-		    <min>0</min>
-		    <max>1</max>
+		    <unit>
+		        <name></name>
+		        <file>OR</file>
+		    </unit>
 		</low>
 	</units>
 </army>
