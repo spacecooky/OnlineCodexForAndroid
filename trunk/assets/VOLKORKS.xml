@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<army>
+    <name>Orks</name>
+	<units>
+		<hq>
+		    <unit>
+		        <name>Warboss</name>
+		        <file>ORWarboss</file>
+		    </unit>
+		    <unit>
+		        <name>Bigmek</name>
+		        <file>ORBigmek</file>
+		    </unit>
+		    <unit>
+		        <name>Painboy</name>
+		        <file>ORPainboy</file>
+		    </unit>
+		    <unit>
+		        <name>Weirdboy</name>
+		        <file>ORWeirdboy</file>
+		    </unit>
+		    <unit>
+		        <name>Mek</name>
+		        <file>ORMek</file>
+		    </unit>
+		    <unit>
+		        <name>Mad Dok Grotsnik</name>
+		        <file>ORGrotsnik</file>
+		    </unit>
+		    <unit>
+		        <name>Kaptin Badrukk</name>
+		        <file>ORBadrukk</file>
+		    </unit>
+		    <unit>
+		        <name>Boss Zagstruk</name>
+		        <file>ORZagstruk</file>
+		    </unit>
+		    <unit>
+		        <name>[Sanctus Reach] Grukk Face-Rippa</name>
+		        <file>ORGrukk</file>
+		    </unit>
+		</hq>    
+		<el>
+		    <min>0</min>
+		    <max>3</max>
+		</el>
+		<trp>
+		    <min>2</min>
+		    <max>6</max>
+		</trp>
+		<fa>
+		    <min>0</min>
+		    <max>3</max>
+		</fa>
+		<hs>
+		    <min>0</min>
+		    <max>3</max>
+		</hs>
+		<fort>
+		    <min>0</min>
+		    <max>1</max>
+		</fort>
+		<low>
+		    <min>0</min>
+		    <max>1</max>
+		</low>
+	</units>
+</army>
