@@ -92,21 +92,159 @@
 		</el>
 		<trp>
 		    <unit>
-		        <name></name>
-		        <file>OR</file>
+		        <name>Boyz</name>
+		        <file>ORBoyz</file>
+		    </unit>
+		    <unit>
+		        <name>Gretchin</name>
+		        <file>ORGretchin</file>
+		    </unit>
+		    <unit>
+		        <name>[Sanctus Reach] Rustgob's Runts</name>
+		        <file>ORRustgobsRunts</file>
 		    </unit>
 		</trp>
 		<fa>
 		    <unit>
-		        <name></name>
-		        <file>OR</file>
+		        <name>Trukk</name>
+		        <file>ORTrukk</file>
+		    </unit>
+		    <unit>
+		        <name>Stormboyz</name>
+		        <file>ORStormboyz</file>
+		    </unit>
+		    <unit>
+		        <name>Deffkoptas</name>
+		        <file>ORDeffkoptas</file>
+		    </unit>
+		    <unit>
+		        <name>Dakkajet</name>
+		        <file>ORDakkajet</file>
+		    </unit>
+		    <unit>
+		        <name>Burna-Bommer</name>
+		        <file>ORBurnaBommer</file>
+		    </unit>
+		    <unit>
+		        <name>Blitza-Bommer</name>
+		        <file>ORBlitzaBommer</file>
+		    </unit>
+		    <unit>
+		        <name>Warbikers</name>
+		        <file>ORWarbikers</file>
+		    </unit>
+		    <unit>
+		        <name>Warbuggies</name>
+		        <file>ORWarbuggies</file>
+		    </unit>
+		    <unit>
+		        <name>[Dread Mob Update] Warkoptas</name>
+		        <file>ORWarkoptas</file>
+		    </unit>
+		    <unit>
+		        <name>[IA Aeronautica] Fighta-Bommer</name>
+		        <file>ORFightaBommer</file>
+		    </unit>
+		    <unit>
+		        <name>[IA Aeronautica] Attak Fighta</name>
+		        <file>ORAttakFighta</file>
 		    </unit>
 		</fa>
 		<hs>
 		    <unit>
+		        <name>Mek Gunz</name>
+		        <file>ORMekGunz</file>
+		    </unit>
+		    <unit>
+		        <name>Battlewagon</name>
+		        <file>ORBattlewagon</file>
+		    </unit>
+		    <unit>
+		        <name>Deff Dread</name>
+		        <file>ORDeffDread</file>
+		    </unit>
+		    <unit>
+		        <name>Killa Kans</name>
+		        <file>ORKillaKans</file>
+		    </unit>
+		    <unit>
+		        <name>Gorkanaut</name>
+		        <file>ORGorkanaut</file>
+		    </unit>
+		    <unit>
+		        <name>Morkanaut</name>
+		        <file>ORMorkanaut</file>
+		    </unit>
+		    <unit>
 		        <name></name>
 		        <file>OR</file>
 		    </unit>
+		    <unit>
+		        <name>Lootas</name>
+		        <file>ORLootas</file>
+		    </unit>
+		    <unit>
+		        <name>Flash Gitz</name>
+		        <file>ORFlashGitz</file>
+		    </unit>
+		    <unit>
+		        <name>[WDW] Looted Wagon</name>
+		        <file>ORLootedWagon</file>
+		    </unit>
+		    <unit>
+		        <name>[Sanctus Reach] Krumpa's Killa Kanz</name>
+		        <file>ORKrumpasKillaKanz</file>
+		    </unit>
+		    <unit>
+		        <name>[IA Apo 2013] Mega-Dread</name>
+		        <file>ORMegaDread</file>
+		    </unit>
+		    <unit>
+		        <name>[IA Apo 2013] Lifta Wagon</name>
+		        <file>ORLiftaWagon</file>
+		    </unit>
+		    <unit>
+		        <name>[IA Apo 2013] Big Squiggoth</name>
+		        <file>ORBigSquiggoth</file>
+		    </unit>
+		    <unit>
+		        <name>[IA Aeronautica] Flakk Trukk</name>
+		        <file>ORFlakkTrukk</file>
+		    </unit>
+		    <unit>
+		        <name>[IA Aeronautica] Flakk Trakk</name>
+		        <file>ORFlakkTrakk</file>
+		    </unit>
+		    <unit>
+		        <name>[IA Apo 2nd Ed] Grot Bomm Launcha</name>
+		        <file>ORGrotBommLauncha</file>
+		    </unit>
+		    <unit>
+		        <name>[IA8] Gun Trukk</name>
+		        <file>ORGunTrukk</file>
+		    </unit>
+		    <unit>
+		        <name>[IA8] Big Trakk</name>
+		        <file>OR[IA8] Big Trakk</file>
+		    </unit>
+		    <unit>
+		        <name></name>
+		        <file>OR</file>
+		    </unit>
+		    <unit>
+		        <name></name>
+		        <file>OR</file>
+		    </unit>
+		    
+		    "", "", "", "", "", "", 
+				"", "",
+				"", "",
+				"", "",
+				"", ", "", "",
+				"", "", "",
+				"", "",
+				"", "", "", "[IA8] Gun Wagon",
+				"", "[IA Apo 2007] Krusha Battle Wagon", "[IA Apo 2007] Looted Rhino"
 		</hs>
 		<fort>
 		    <unit>
