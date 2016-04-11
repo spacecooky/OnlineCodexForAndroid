@@ -225,37 +225,147 @@
 		    </unit>
 		    <unit>
 		        <name>[IA8] Big Trakk</name>
-		        <file>OR[IA8] Big Trakk</file>
+		        <file>ORBigTrakk</file>
 		    </unit>
 		    <unit>
-		        <name></name>
-		        <file>OR</file>
+		        <name>[IA8]Gun Wagon</name>
+		        <file>ORGunWagon</file>
 		    </unit>
 		    <unit>
-		        <name></name>
-		        <file>OR</file>
+		        <name>[IA Apo 2007] Krusha Battle Wagon</name>
+		        <file>ORKrushaBattleWagon</file>
 		    </unit>
-		    
-		    "", "", "", "", "", "", 
-				"", "",
-				"", "",
-				"", "",
-				"", ", "", "",
-				"", "", "",
-				"", "",
-				"", "", "", "[IA8] Gun Wagon",
-				"", "[IA Apo 2007] Krusha Battle Wagon", "[IA Apo 2007] Looted Rhino"
+		    <unit>
+		        <name>[IA Apo 2007] Looted Rhino</name>
+		        <file>ORLootedRhino</file>
+		    </unit>
 		</hs>
 		<fort>
 		    <unit>
-		        <name></name>
-		        <file>OR</file>
+		        <name>[BK] Aegis-Verteidigungslinie</name>
+		        <file>FOAegisVerteidigungslinie</file>
+		    </unit>
+		    <unit>
+		        <name>[BK] Himmelsschild-Landeplattform</name>
+		        <file>FOHimmelsschildLandeplattform</file>
+		    </unit>
+		    <unit>
+		        <name>[BK] Imperiale Bastion</name>
+		        <file>FOImperialeBastion</file>
+		    </unit>
+		    <unit>
+		        <name>[BK] Festung der Erlösung</name>
+		        <file>FOFestungderErlösung</file>
+		    </unit>
+		    <unit>
+		        <name>[BK] Vergelter Waffenbatterie</name>
+		        <file>FOVergelter Waffenbatterie</file>
+		    </unit>
+		    <unit>
+		        <name>[BK] Feuersturm Abwehrstellung</name>
+		        <file>FOFeuersturmAbwehrstellung</file>
+		    </unit>
+		    <unit>
+		        <name>[BK] Aquilla-Artilleriebunker</name>
+		        <file>FOAquillaArtilleriebunker</file>
+		    </unit>
+		    <unit>
+		        <name>[BK] Deflektor-Relaisnetzwerk</name>
+		        <file>FODeflektorRelaisnetzwerk</file>
+		    </unit>
+		    <unit>
+		        <name>[BK] Deflektor-Schildgenerator</name>
+		        <file>FODeflektorSchildgenerator</file>
+		    </unit>
+		    <unit>
+		        <name>EhrwürdigesImperium1</name>
+		        <file>FOEhrwürdigesImperium1</file>
+		    </unit>
+		    <unit>
+		        <name>[BK] Befestigte Stellung</name>
+		        <file>FOBefestigteStellung</file>
+		    </unit>
+		    <unit>
+		        <name>[BK] Imperialer Bunker</name>
+		        <file>FOImperialerBunker</file>
+		    </unit>
+		    <unit>
+		        <name>[BK] Imperiale Verteidigungslinie</name>
+		        <file>FOImperialeVerteidigungslinie</file>
+		    </unit>
+		    <unit>
+		        <name>[BK] Imperiale Verteidigungsstellung</name>
+		        <file>FOImperialeVerteidigungsstellung</file>
+		    </unit>
+		    <unit>
+		        <name>[BK] Promethium-Relaisleitungen</name>
+		        <file>FOPromethiumRelaisleitungen</file>
+		    </unit>
+		    <unit>
+		        <name>[BK] Imperiales Verteidigungsnetzwerk</name>
+		        <file>FOImperialesVerteidigungsnetzwerk</file>
+		    </unit>
+		    <unit>
+		        <name>Plasma Obliterator</name>
+		        <file>FOPlasmaObliterator</file>
 		    </unit>
 		</fort>
 		<low>
 		    <unit>
-		        <name></name>
-		        <file>OR</file>
+		        <name>Ghazghkull Thraka</name>
+		        <file>ORGhazghkullThraka</file>
+		    </unit>
+		    <unit>
+		        <name>Stompa</name>
+		        <file>ORStompa</file>
+		    </unit>
+		    <unit>
+		        <name>[Apo2] Gigantischer Squiggofant</name>
+		        <file>ORGigantischerSquiggofant</file>
+		    </unit>
+		    <unit>
+		        <name>[IA Apo 2013] \'Kustom\' Battle Fortress</name>
+		        <file>ORKustomBattleFortress</file>
+		    </unit>
+		    <unit>
+		        <name>[IA Apo 2013] Kill Krusha \'Eavy Tank</name>
+		        <file>ORKillKrushaEavyTank</file>
+		    </unit>
+		    <unit>
+		        <name>[IA Apo 2013] Kill Bursta</name>
+		        <file>ORKillBursta</file>
+		    </unit>
+		    <unit>
+		        <name>[IA Apo 2013] Kill Blasta</name>
+		        <file>ORKillBlasta</file>
+		    </unit>
+		    <unit>
+		        <name>[IA8] Kustom Stompa</name>
+		        <file>ORKustomStompa</file>
+		    </unit>
+		    <unit>
+		        <name>[Apo2 Armageddon] Big Mek Stompa</name>
+		        <file>ORBigMekStompa</file>
+		    </unit>
+		    <unit>
+		        <name>[Apo2 Armageddon] Skullhamma Battle Fortress</name>
+		        <file>ORSkullhammaBattleFortress</file>
+		    </unit>
+		    <unit>
+		        <name>[IA Aeronautica] Flakk Battle Fortress</name>
+		        <file>ORFlakkBattleFortress</file>
+		    </unit>
+		    <unit>
+		        <name>[IA Apo 2nd Ed] Fighta</name>
+		        <file>ORFighta</file>
+		    </unit>
+		    <unit>
+		        <name>[IA8] Dethrolla Battle Fortress</name>
+		        <file>ORDethrollaBattleFortress</file>
+		    </unit>
+		    <unit>
+		        <name>[IA8] Blasta Bommer</name>
+		        <file>ORBlastaBommer</file>
 		    </unit>
 		</low>
 	</units>
